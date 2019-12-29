@@ -1,0 +1,32 @@
+{
+  "name": "bitkeep_admin",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build --mode build --no-clean"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.4.11",
+    "mavon-editor": "^2.6.17",
+    "muse-ui": "^3.0.2",
+    "vue": "^2.5.21",
+    "vue-cropperjs": "^3.0.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-polyfill": "^6.26.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

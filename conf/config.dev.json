@@ -1,0 +1,75 @@
+{
+  "server": {
+    "port": 9929,
+    "debug": true
+  },
+  "redis": {
+    "store": {
+      "host": "10.9.0.28",
+      "port": 6379,
+      "auth": ""
+    }
+  },
+  "mysql": {
+    "mine": {
+      "host": "10.9.0.2",
+      "port": 3306,
+      "user": "root",
+      "password": "6yhnmju7@cc",
+      "database": "FlyingMiner"
+    }
+  },
+  "hosts": {
+    "otc": {
+      "host": "http://127.0.0.1:57133",
+      "appId": "123",
+      "version": "0.0.1"
+    },
+    "center": {
+      "host": "http://127.0.0.1:7721",
+      "appId": "123",
+      "version": "0.0.1"
+    },
+    "issue": {
+      "host": "http://127.0.0.1:50122",
+      "appId": "123",
+      "version": "0.0.1"
+    },
+    "vcode": {
+      "host": "http://127.0.0.1:50109",
+      "appId": "123",
+      "version": "0.0.1"
+    },
+    "user": {
+      "host": "http://127.0.0.1:8875",
+      "appId": "123",
+      "version": "0.0.1"
+    }
+  },
+  "groups": {
+    "group1": {
+      "users": [
+        "sunshilei@bitkeep.com",
+        "2528251012@qq.com"
+      ],
+      "home": "ubuy",
+      "limits": [
+        {
+          "icon": "el-icon-lx-home",
+          "index": "uboard",
+          "title": "控制面板"
+        },
+        {
+          "icon": "el-icon-lx-cascades",
+          "index": "ubuy",
+          "title": "出售管理"
+        },
+        {
+          "icon": "el-icon-lx-calendar",
+          "index": "usell",
+          "title": "购买管理"
+        }
+      ]
+    }
+  }
+}

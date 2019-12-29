@@ -1,0 +1,11 @@
+/conf/config.json
+sftp-config.json
+.idea
+view
+node_modules
+/public
+./view
+./node_modules
+./.idea
+web/package-lock.json
+web/node_modules

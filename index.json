@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "YOUMineBus",
+      "script": "/data/mine/com.umine.bus/index.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/data/logs/com.umine.bus/error.log",
+      "out_file":  "/data/logs/com.umine.bus/runtime.log",
+      "log_file": "/data/logs/com.umine.bus/out.log"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "server": {
+    "port": 9929,
+    "debug": false
+  },
+  "redis": {
+    "store": {
+      "host": "10.8.82.173",
+      "port": 6379,
+      "auth": ""
+    }
+  },
+  "mysql": {
+    "mine": {
+      "host": "product.mysql",
+      "port": 3306,
+      "user": "root",
+      "password": "6yhnmju7_youmine",
+      "database": "FlyingMiner",
+      "useConnectionPooling": true
+    }
+  },
+  "hosts": {
+    "otc": {
+      "host": "http://127.0.0.1:57133",
+      "appId": "123",
+      "version": "0.0.1"
+    },
+    "vcode": {
+      "host": "http://127.0.0.1:50109",
+      "appId": "123",
+      "version": "0.0.1"
+    }
+  },
+  "groups": {
+    "group1": {
+      "users": [
+        "gxj@bitkeep.com",
+        "zhangchong@bitkeep.com",
+        "peitongqiang@bitkeep.com"
+      ],
+      "home": "ubuy",
+      "limits": [
+        {
+          "icon": "el-icon-lx-cascades",
+          "index": "ubuy",
+          "title": "出售管理"
+        },
+        {
+          "icon": "el-icon-lx-calendar",
+          "index": "usell",
+          "title": "购买管理"
+        }
+      ]
+    }
+
+  }
+}
